@@ -1,0 +1,16 @@
+.img{
+    height: 200px;
+    width: 100%;
+}
+
+.card{
+    /* width: 25%; */
+    padding: 1rem;
+}
+
+
+.card img {
+    height: 20rem;
+    width: 100%;
+    object-fit: contain;
+}
