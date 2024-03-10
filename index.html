@@ -14,11 +14,150 @@
 <body>
     <header></header>
     <main>
-        <div class="container-fluid h-100 d-flex justify-content-center align-items-center p-3">
-            <img class="m-5" src="/assests/logos/Garmentize-logos_transparent.png" style="width: 100%;">
+        <div class="container-fluid h-100 d-flex flex-column justify-content-start align-items-center p-3">
+            <img class="m-5" src="/assests/logos/Garmentize-logos_transparent.png" style="width: 100%; height : 150px; object-fit: contain;">
+            <div class="row">
+                <div class="col d-flex flex-column align-items-center justify-content-start h-100">
+                    <h1>Featured Products</h1>
+                </div>
+            </div>
+            <div class="row h-100">
+                <div class="col w-100 h-100 bg-light">
+                    <div id="c-container" class="container-fluid h-100 ">
+                        <div class="row  h-100">
+                            <div class="col-1 d-flex justify-content-center align-items-center">
+                                <button id="dec-slide" class="btn btn-primary" onclick="decrementCSlide()">Prev</button>
+                            </div>
+                            
+                            <div id="c-slide-container" class="col-10 h-100 d-flex justify-content-center align-items-center">
+                                <div id="c-slide-1" class="row">
+                                    <div class="col-12 col-md-6 col-lg-4">
+                                        <div class="card w-100">
+                                            <img src="../../assests/images/products/featured/kids_1.jpeg" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Kids 1</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-md-block col-md-6 col-lg-4">
+                                        <div class="card w-100">
+                                            <img src="../../assests/images/products/featured/kids_2.jpg" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Kids 2</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-lg-block col-lg-4">
+                                        <div class=" card w-100">
+                                            <img src="../../assests/images/products/featured/kids_3.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Kids 3</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="c-slide-2" class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <img src="../../assests/images/products/featured/men_1.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Mens 1</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-lg-block d-md-block col-md-6 col-lg-4">
+                                        <div class="card">
+                                            <img src="../../assests/images/products/featured/men_2.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Mens 2</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-lg-block col-lg-4">
+                                        <div class="card">
+                                            <img src="../../assests/images/products/featured/men_3.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Mens 3</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div id="c-slide-3" class="row">
+                                    <div class="col-md-6 col-lg-4">
+                                        <div class="card w-100">
+                                            <img src="../../assests/images/products/featured/women_1.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Women 1</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-lg-block d-md-block col-md-6 col-lg-4">
+                                        <div class="card w-100">
+                                            <img src="../../assests/images/products/featured/women_2.webp" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Women 2</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="d-none d-lg-block col-lg-4">
+                                        <div class="card w-100">
+                                            <img src="../../assests/images/products/featured/women_3.avif" class="img-card-top"/>
+                                            <div class="card-body">
+                                                <h4 class="card-title">Women 3</h4>
+                                                <p class="card-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Autem ducimus temporibus quisquam, ex doloribus tempora laborum debitis quibusdam quam quasi est dicta assumenda ut tempore alias, ad porro laboriosam veritatis.</p>
+                                            </div>
+                                            <div class="card-body">
+                                                <button type="button" class="btn btn-dark w-100"><i class="fa-solid fa-cart-shopping me-2"></i>Add to cart</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-1 d-flex justify-content-center align-items-center">
+                                <button id="inc-slide" class="btn btn-primary" onclick="incrementCSlide()">Next</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </main>
     <footer></footer>
     <script src="/scripts/loaders.js"></script>
+    <script src="./index.js"></script>
 </body>
 </html>

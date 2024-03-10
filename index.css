@@ -1,0 +1,36 @@
+/* main {
+    background-color: gray;
+} */
+
+.img{
+    height: 200px;
+    width: 100%;
+}
+
+.card{
+    /* width: 25%; */
+    padding: 1rem;
+}
+
+#c-slide-container {
+    margin-top: 2rem;
+}
+
+.card img {
+    height: 20rem;
+    width: 100%;
+    object-fit: contain;
+}
+
+.d-flex {
+    gap: 20px;
+}
+
+#c-slide-1,#c-slide-2,#c-slide-3 {
+    height: 100%;
+    width: 100%;
+}
+
+#c-slide-2, #c-slide-3{
+    display: none;
+}

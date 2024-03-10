@@ -1,3 +1,4 @@
+/*Common styling template for all the pages, to designate areas for the header, footer & main sections.*/
 body {
     height: 100vh;
     display: grid;
